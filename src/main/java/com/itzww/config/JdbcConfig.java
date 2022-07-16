@@ -15,7 +15,7 @@ public class JdbcConfig {
     private String username ;
     @Value("${jdbc.password}")
     private String password ;
-
+    // 这个是在页面上进行处理添加的
     @Bean
     public DataSource dataSource(){
         DruidDataSource dataSource = new DruidDataSource();
